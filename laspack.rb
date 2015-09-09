@@ -1,9 +1,9 @@
 require 'formula'
 
 class Laspack <Formula
-  url 'http://www.cerfacs.fr/~douglas/mgnet/Codes/laspack/laspack-1.12.2.tgz'
+  url 'http://www.netlib.org/linalg/laspack.tgz'
   homepage 'http://www.mgnet.org/mgnet/Codes/laspack/html/laspack.html'
-  md5 '807c4aecd9f6b2bc7c1392f6a14d38c4'
+  sha256 '3bec92900e8fd60a962cb3b2e3d4fb7e55f00fd06b256683427e52cafc2286fa'
 
   def options
     [
