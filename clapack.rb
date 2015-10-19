@@ -4,7 +4,8 @@ class Clapack <Formula
   url 'http://www.netlib.org/clapack/clapack-3.2.1.tgz'
   homepage 'http://www.netlib.org/clapack/'
   sha256 '6dc4c382164beec8aaed8fd2acc36ad24232c406eda6db462bd4c41d5e455fac'
-
+  version "3.2.1"
+  
   def patches; DATA; end
 
   def options

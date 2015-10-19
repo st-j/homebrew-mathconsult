@@ -4,7 +4,8 @@ class Laspack <Formula
   url 'http://www.netlib.org/linalg/laspack.tgz'
   homepage 'http://www.mgnet.org/mgnet/Codes/laspack/html/laspack.html'
   sha256 '3bec92900e8fd60a962cb3b2e3d4fb7e55f00fd06b256683427e52cafc2286fa'
-
+  version "1.12.2"
+  
   def options
     [
       ['--tests', "Install test executables."],
